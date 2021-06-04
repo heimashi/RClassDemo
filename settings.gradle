@@ -1,0 +1,5 @@
+rootProject.name = "RClassDemo"
+include ':app'
+include ':mylibrary'
+include ':mylibrary2'
+include ':dynamicfeature'
