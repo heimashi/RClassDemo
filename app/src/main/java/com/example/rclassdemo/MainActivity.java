@@ -19,8 +19,11 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         TextView textView = findViewById(R.id.textView);
         TextView textView2 = findViewById(R.id.textView2);
+
+//        textView.setText(getString(R.string.app_name) + "-"
+//                + getString(R.string.lib_name) + "-" + getString(R.string.lib2_name));
         textView.setText(getString(R.string.app_name) + "-"
-                + getString(R.string.lib_name) + "-" + getString(R.string.lib2_name));
+                + getString(com.example.mylibrary.R.string.lib_name) + "-" + getString(com.example.mylibrary2.R.string.lib2_name));
         textView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

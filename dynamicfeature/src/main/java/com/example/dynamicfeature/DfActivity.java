@@ -17,7 +17,7 @@ public class DfActivity extends AppCompatActivity {
         TextView textView = findViewById(R.id.textView);
 
         textView.setText(getString(com.example.rclassdemo.R.string.app_name)
-                + "-" + getString(com.example.rclassdemo.R.string.lib_name)
+                + "-" + getString(com.example.rclassdemo.R.string.app_name)
                 + "-" + getString(R.string.df_name));
 
     }
